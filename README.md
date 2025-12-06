@@ -2,6 +2,13 @@
 
 Lean guide for working with this repo using Opencode agents.
 
+## Dependencies
+- Ghidra installed.
+- GhidrAssist extension installed in Ghidra: https://github.com/jtang613/GhidrAssist
+- GhidrAssistMCP server running for the MCP bridge: https://github.com/jtang613/GhidrAssistMCP (configure it to expose `ghidra-server_*` commands as per `opencode.json`).
+- `make` available in PATH (format/verify targets are stubbed; replace with real commands for your environment).
+- Opencode CLI configured in this repo (`.opencode/` + `opencode.json`).
+
 ## Quickstart
 - Load context: `.opencode/instructions/01_workflow_and_style.md`, `02_manifests_and_docs.md`, `03_ghidra_mcp_reference.md`.  
   (Optional: `.opencode/instructions/07_binary_context_bof3.md` when working on Breath of Fire III.)
