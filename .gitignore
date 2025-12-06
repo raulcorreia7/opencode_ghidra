@@ -1,0 +1,8 @@
+# Build and output artifacts
+out/
+build/
+
+# Editor/OS noise
+.DS_Store
+Thumbs.db
+*.swp

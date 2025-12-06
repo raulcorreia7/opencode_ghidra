@@ -1,0 +1,27 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": [
+    ".opencode/instructions/01_workflow_and_style.md",
+    ".opencode/instructions/02_manifests_and_docs.md",
+    ".opencode/instructions/03_ghidra_mcp_reference.md"
+  ],
+  "mcp": {
+    "ghidra-server": {
+      "type": "remote",
+      "url": "http://127.0.0.1:8080/sse",
+      "enabled": true,
+      "headers": {}
+    }
+  },
+  "formatter": {
+    "prettier": {
+      "disabled": false
+    },
+    "clang-format": {
+      "disabled": false
+    },
+    "ruff": {
+      "disabled": false
+    }
+  }
+}
